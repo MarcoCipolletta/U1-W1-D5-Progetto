@@ -21,7 +21,7 @@ Bordo schede: #dee1e3
 
 /* todo eliminare questa riga con "overflow: hidden;" dopo aver sistemato le foto */
 * {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 body {
@@ -30,6 +30,7 @@ body {
  font-family: "Open Sans", sans-serif;
  line-height: 1.65;
  text-align: center;
+ font-weight: 400;
 }
 /* basi per heading */
 .lightblue {
@@ -52,6 +53,34 @@ body {
     padding-block: 1.5rem;
  }
 
+/* classe per il padding della pagina */
+.p_inline {
+    padding-inline: 1.5rem;
+}
+ /* hero section */
+.hero {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-block: 2rem;
+}
+
+.text h1 {
+    font-size: 2rem;
+}
+
+.text p {
+    padding-block: 1.5rem;
+}
+
+.hero button {
+   background-color: #f04c2f; 
+   border: none;
+   border-radius: 5px;
+   padding: 0.7rem 2rem;
+   color: white;
+}
 
 
 
