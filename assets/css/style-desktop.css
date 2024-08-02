@@ -157,9 +157,29 @@ article div p {
     margin-inline: 15px;
 }
 
-.card img {
-    width: 100%;
+.card div {
+    height: 250px;
 }
+
+.card_container > div:nth-of-type(1) > div {
+    background-image: url(../images/foto1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card_container > div:nth-of-type(2) > div {
+    background-image: url(../images/foto2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card_container > div:nth-of-type(3) > div {
+    background-image: url(../images/foto3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* .card img {
+    height: 100%;
+} */
 
 .card h6 {
     padding-block: 1.5rem;
