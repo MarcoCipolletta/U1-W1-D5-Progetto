@@ -82,5 +82,19 @@ body {
    color: white;
 }
 
+/* article section  */
+article {
+    padding-block: 3.5rem;
+}
+article div p {
+    margin-top: -1rem;
+}
+article img {
+    width: 75%;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+
+
 
 
