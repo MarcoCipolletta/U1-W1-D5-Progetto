@@ -58,8 +58,14 @@ body {
     background-image: url(../images/banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    padding-block: 2rem;
+    background-position: top;
+    padding-block: 10rem;
+    text-align: center;
+}
+
+.hero > div {
+    width: 705px;
+    margin: auto;
 }
 
 .text h1 {
