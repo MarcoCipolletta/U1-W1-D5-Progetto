@@ -26,7 +26,6 @@ body {
  font-size: 1.2rem;
  font-family: "Open Sans", sans-serif;
  line-height: 1.65;
- text-align: center;
  font-weight: 300;
 }
 /* basi per heading */
@@ -46,8 +45,8 @@ body {
  }
 
  header img{
-    width: 35%;
-    padding-block: 1.5rem;
+    height: 45px;
+    padding: 1rem;
  }
 
 /* classe per il padding della pagina */
