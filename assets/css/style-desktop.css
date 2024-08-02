@@ -86,16 +86,30 @@ body {
 
 /* article section  */
 article {
-    padding-block: 3.5rem;
+    padding-block: 7rem;
 }
 article div p {
     margin-top: -1rem;
+    font-size: 0.9rem;
 }
-article img {
-    width: 75%;
+.left, .right {
+    display: inline-block;
+    width: 50%;
+    /* height: 500px; */
+    margin-right: -6px;
+    vertical-align: middle;
+    box-sizing:border-box;
+}
+.left {
+    text-align: end;
+    padding-inline: 2.5rem;
+}
+.left img {
+    width: 400px;
     border-radius: 50%;
-    margin-bottom: 1.5rem;
 }
+
+
 
 /* testimonianze  */
 
