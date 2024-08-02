@@ -27,7 +27,7 @@ body {
  font-family: "Open Sans", sans-serif;
  line-height: 1.65;
  text-align: center;
- font-weight: 400;
+ font-weight: 300;
 }
 /* basi per heading */
 .lightblue {
@@ -36,7 +36,7 @@ body {
 
 .h_tstyle {
     font-family: "Montserrat", sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.5;
 }
 
@@ -144,6 +144,47 @@ padding-top: 2rem;
     font-size: 0.9rem;
     padding-bottom: 3rem;
 }
+
+/* footer */
+
+footer {
+    background-color: #25a2c3;
+    padding-block: 2rem;
+}
+footer div {
+    padding-inline: 1.5rem;
+}
+
+footer h3 {
+    color: white;
+    font-size: 1.8rem;
+    padding-block: 1rem;
+}
+
+footer p, footer a {
+    color: #c8e7f0;
+}
+footer p {
+    font-size: 1rem;
+}
+footer p i {
+    color: white;
+}
+.copy{
+    width: 70%;
+    margin-inline: auto;
+}
+.linea {
+    height: 1px;
+    margin-block: 1.5rem;
+    background-color: white;
+}
+
+.copyright {
+    font-size: 0.7rem;
+    margin-bottom: 2rem;
+}
+
 
 
 
