@@ -1,1 +1,41 @@
 /* Your styles here */
+/*
+-Font
+Body: #393d41 – 1.2rem – Open Sans – interlinea 1.65
+Headings: #25a2c3 – Montserrat (bold) – interlinea 1.5
+Footer: #c8e7f0
+Footer Heading: white
+Footer link: #c8e7f0
+
+-Colori sfondo
+Header: black
+Pulsante: #f04c2f – Montserrat (bold) – bold
+Testimonianze: #e22d0e
+Footer: #25a2c3
+
+Bordi
+Bordo schede: #dee1e3
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+ color: #393d41;
+ font-size: 1.2rem;
+ font-family: "Open Sans", sans-serif;
+line-height: 1.65;
+}
+/* basi per heading */
+.lightblue {
+    color: #25a2c3;
+}
+
+.h_tstyle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+
+
+
