@@ -115,8 +115,9 @@ article div p {
 
 .testimonianze {
     background-color: #e22d0e;
-    padding-block: 2rem;
+    padding-block: 5rem;
     color: white;
+    text-align: center;
 }
 
 .testimonianze h3 {
@@ -125,13 +126,13 @@ article div p {
 }
 
 .testimonianze p:nth-child(2) {
-    font-size: 0.9rem;
+    font-size: 1.8rem;
     font-weight: 200;
     font-style: italic;
 }
 
 .testimonianze p:nth-of-type(2) {
-padding-top: 2rem;
+padding-top: 1rem;
 }
 
 .testimonianze p:last-of-type {
